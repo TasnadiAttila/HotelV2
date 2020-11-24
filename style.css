@@ -1,3 +1,4 @@
+/*Fejléc*/
 a {
     text-decoration: none;
 }
@@ -38,7 +39,7 @@ header nav a:hover{
 .udv #kivansag{
     font-size: 25px;
 }
-
+/*Garden & Restaurant*/
 .box{
     background: #000000;
     padding: 20px;
@@ -76,6 +77,67 @@ header nav a:hover{
 html{
     background-color: rgb(36, 36, 36);
 }
+/*Foglalások*/
+.ar p{
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.egesz{
+    background-color: rgb(36, 36, 36);
+    width: 500px;
+    height: 700px;
+}
+.egesz .texts {
+    width: 50%;
+    height: 100%;
+    background-color: inherit;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    color: wheat;
+    margin-top: 40px;
+}
+.egesz p{
+    padding: 45px 15px;
+}
+.egesz input{
+    margin-left: 15px;
+    padding: 10px 10px;
+}
+
+.egesz #napok{
+    margin-left: 5px;
+    padding: 10px 10px;
+}
+.egesz .masik p{
+    margin-top: 26px;
+    padding: 20px 15px;
+}
+.egesz .masik{
+    width: 50%;
+    height: 100%;
+    background-color: inherit;
+    float: left;
+    margin-top: 40px;
+    color: wheat;
+    font-size: 20px;
+}
+.egesz .masik .bbb{
+    color: wheat;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: -5px;
+    padding-left: 15px;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+
+/*Responsivity*/
 @media(max-width: 1200px){
     header h2, header nav a{
         text-align: center;

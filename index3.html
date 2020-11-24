@@ -33,14 +33,45 @@
                     </div>
                 </div>
             </header>
-            <div class="container-fluid fogl">
+            <div class="container-fluid ar">
                 <div class="row">
                     <div class="container">
                         <div class="row">
-                            
+                            <p class="col-lg-12">
+                                Egy Fő / Szoba / Éjszaka: 4000 Ft
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="container egesz">
+                <div class="texts">
+                    <p>
+                        Kérjük add meg a foglalás kezdetét:
+                    </p>
+                    <input type="date" id="login">
+                    <p>
+                        Kérjük add meg a foglalás végét:
+                    </p>
+                    <input type="date" id="logout">
+                    <p>
+                        A dátumok alapján itt szeretnél tölteni: <label id="napok">asd</label>
+                    </p>
+                    <p class="kevesebbpadding">
+                        Kérjük add meg hány főre szeretnéd leadni a foglalást:
+                    </p>
+                    <input type="number" min="1" id="szemelyekszama">
+                </div>
+                <div class="masik">
+                    <p>
+                        A végösszeg megtekintéséhez kattints <input type="button" value="IDE" class="bbb" onclick="vegrehajt();">.
+                    </p>
+                    <br>
+                    <p class="abszolutvegeosszeg">
+                        asd
+                    </p>
+                </div>
+            </div>
+            <script src="main.js"></script>
         </body>
     </html>
