@@ -77,6 +77,7 @@ header nav a:hover{
 html{
     background-color: rgb(36, 36, 36);
 }
+
 /*Foglalások*/
 .ar p{
     text-align: center;
@@ -161,7 +162,7 @@ html{
 
 }
 /**/
-.box {
+.box2 {
     width: 40%;
     margin: 0 auto;
     background: inherit;
@@ -276,7 +277,10 @@ html{
     .udv #welcometext{
         font-size: 33px;
     }
-
+    .box2 .button{
+        margin-top: 25px;
+        overflow: hidden;
+    }
 }
 @media(max-width: 992px){
     header h2, header nav a{
@@ -297,4 +301,9 @@ html{
         font-size: 18px;
         font-family: 'Castoro', serif;
     }
+    .box2 .button{
+        margin-top: 25px;
+        color: rgb(255, 255, 255);
+    }
+    
 }
