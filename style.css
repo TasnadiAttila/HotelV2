@@ -228,6 +228,44 @@ html{
     max-height: 30%;
     overflow: auto;
   }
+/**/
+.szolg p{
+    text-align: center;
+    margin-top: 40px;
+    color: wheat;
+    font-size: 30px;
+}
+.listas{
+    margin-top: 40px;
+    height: 550px;
+    width: 600px;
+    background-color: inherit;
+}
+.listas .pontok{
+    width: 50%;
+    height: 100%;
+    background-color: inherit;
+    float: left;
+}
+.listas .kep{
+    width: 50%;
+    height: 100%;
+    background-color: inherit;
+    float: left;
+}
+.listas ul{
+    padding: 10px 50px;
+    color: wheat;
+    font-size: 20px;
+}
+.listas li{
+    padding: 14px 10px;
+}
+.listas img{
+    margin-left: 15%;
+    margin-top: 25%;
+    border-radius: 2%;
+}
 /*Responsivity*/
 @media(max-width: 1200px){
     header h2, header nav a{
