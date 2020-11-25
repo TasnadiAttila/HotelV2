@@ -110,11 +110,15 @@ html{
 .egesz #napok{
     margin-left: 5px;
     padding: 10px 10px;
+    color: rgb(255, 211, 129);
+    font-weight: bold;
 }
+
 .egesz .masik p{
-    margin-top: 26px;
-    padding: 20px 15px;
+
+    padding: 45px 15px;
 }
+
 .egesz .masik{
     width: 50%;
     height: 100%;
@@ -123,6 +127,7 @@ html{
     margin-top: 40px;
     color: wheat;
     font-size: 20px;
+    text-align: center;
 }
 .egesz .masik .bbb{
     color: wheat;
@@ -136,7 +141,93 @@ html{
     padding:0;
     outline: 0;
 }
+.egesz .masik #abszolutvegeosszeg{
+    color: rgb(255, 211, 129);
+    font-weight: bold;
+    margin-top: 15px;
+}
+.egesz .masik #kerdes{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
 
+.egesz .masik .keretnelkul{
+    border: none;
+    outline: none;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/**/
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: inherit;
+    padding: 35px;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: wheat;
+    border: 4px solid #030303;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+
+  .button:hover {
+    background: #000000;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(36, 36, 36);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .popup .close:hover {
+    color: #000000;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
 /*Responsivity*/
 @media(max-width: 1200px){
     header h2, header nav a{

@@ -19,5 +19,21 @@ function vegrehajt(){
         let naps = days.toString();
         
         document.getElementById('napok').innerHTML = naps + " napot.";
+       
+        let emberek = document.getElementById('szemelyekszama').value;
+    
+        let szobaar = 4000;
+
+        if(emberek <= 0){
+            window.alert("Nem lehet 0 személyre foglalni!")
+            document.getElementById("napok").innerHTML = " ";
+        }
+        
+        else{
+            let vege = emberek * szobaar *naps;
+            vegee = vege.toString()
+            document.getElementById("abszolutvegeosszeg").innerHTML = "Összsen " + vegee + " Ft-ba fog kerülni.";
+        }
     }
 }
+

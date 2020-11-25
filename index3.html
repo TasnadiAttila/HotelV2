@@ -55,7 +55,7 @@
                     </p>
                     <input type="date" id="logout">
                     <p>
-                        A dátumok alapján itt szeretnél tölteni: <label id="napok">asd</label>
+                        A dátumok alapján itt szeretnél tölteni: <label id="napok"></label>
                     </p>
                     <p class="kevesebbpadding">
                         Kérjük add meg hány főre szeretnéd leadni a foglalást:
@@ -67,9 +67,34 @@
                         A végösszeg megtekintéséhez kattints <input type="button" value="IDE" class="bbb" onclick="vegrehajt();">.
                     </p>
                     <br>
-                    <p class="abszolutvegeosszeg">
-                        asd
+                    <p id="abszolutvegeosszeg">
+                       
                     </p>
+                    <p id="kerdes">
+                        Biztosan szeretné lefoglalni?
+                    </p>
+                    <div class="box">
+                        <a class="felsogomb" class="button" href="#popup1">Igen!</a>
+                        <a class="button" href="#popup2">Nem!</a>
+                    </div>
+
+                   <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                Gratulálunk! Sikeresen lefoglallta a szállást.
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popup2" class="overlay">
+                        <div class="popup">
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                Sajnáljuk, hogy nem tudott nálunk szállást foglalni!
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <script src="main.js"></script>
