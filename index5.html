@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <html lang="hu">
+        <head>
+            <title>Hotel</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        </head>
+        <body>
+            <!--
+            <div class="help">
+                <div class="visible-xs">XS</div>
+                <div class="visible-sm">SM</div>
+                <div class="visible-md">MD</div>
+                <div class="visible-lg">LG</div>
+            </div>
+            -->
+            <header class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="col-lg-2">
+                                MONASTERY BOUTIQUE
+                                HOTEL 
+                            </h2>
+                            <nav class="col-lg-10">
+                                <a href="index2.html">Garden & Restaurant</a>
+                                <a href="index3.html">Foglalás</a>
+                                <a href="index4.html">Szolgáltatásaink</a>
+                                <a href="index.html">Galéria</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container-fluid kepnezegetmain">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <p class="col-lg-12">
+                                Tekintsen meg néhány képet rólunk
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 10</div>
+                  <img src="kep1.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 10</div>
+                  <img src="kep2.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 10</div>
+                  <img src="kep3.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="kep4.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="kep5.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="kep6.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="kep7.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="kep8.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="kep9.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="kep10.jpg" style="width:100%">
+                </div>
+                  
+                
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+        </body>
+    </html>
+    
