@@ -38,6 +38,9 @@ function vegrehajt(){
                 let vege = emberek * szobaar *naps;
                 vegee = vege.toString()
                 document.getElementById("abszolutvegeosszeg").innerHTML = "Összsen " + vegee + " Ft-ba fog kerülni.";
+                document.getElementById("kerdes").style.display = "block";
+                document.getElementById("hide").style.display = "block";
+                document.getElementById("hide2").style.display = "block";
             }
         }
 

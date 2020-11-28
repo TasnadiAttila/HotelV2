@@ -229,6 +229,15 @@ html{
     max-height: 30%;
     overflow: auto;
   }
+.egesz .masik #kerdes{
+    display: none;
+}
+.egesz .masik #hide{
+    display: none;
+}
+.egesz .masik #hide2{
+    display: none;
+}
 /*Szolgáltatások*/
 .szolg p{
     text-align: center;
